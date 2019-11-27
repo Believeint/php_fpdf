@@ -22,7 +22,7 @@ $pdf = new FPDF('P', 'mm', 'A4');
 $pdf->AddPage();
 
 $pdf->SetXY(80, 20);
-$pdf->SetFont('Arial', 'B', 16);
+$pdf->SetFont('Arial', 'B', 18);
 $pdf->SetTextColor(0,0, 60);
 $pdf->Cell(0, 10, "Curriculum Vitae", 1, 1, "Right text", 0, 0, 'C');
 $pdf->GetX(100);

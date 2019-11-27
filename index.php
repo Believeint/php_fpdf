@@ -61,7 +61,7 @@ if ($stmt->rowCount() > 0) {
         ?>
 			<div class="col-xs-3">
 				<p class="page-header"><b><?php echo $nome_completo; ?></B></p>
-				<img src="imagem_usuarios/<?php echo $row['imagemUsuario']; ?>" class="img-thumbnail" style="min-height:250px;" />
+				<img src="imagem_usuarios/<?php echo $row['imagemUsuario']; ?>" class="img-thumbnail" style="min-height:300px;height:300px;min-width:250;width:250px;" />
 				<p class="page-header">
 				<span>
 				<a class="btn btn-info"  href="editarForm.php?editar_id=<?php echo $row['idUsuario']; ?>" title="Clique para Editar" onclick="return confirm('Ter certeza que deseja editar ?')"><span class="glyphicon glyphicon-edit"></span> Editar</a>
